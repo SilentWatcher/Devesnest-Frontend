@@ -1,0 +1,182 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+html{
+    color:#222; 
+    font-family: "josefin Sans";
+    line-height: 1.5;
+    
+}
+body{
+    padding:4rem 5rem;
+    background: linear-gradient(#b5afaf,#f8ae8b);
+
+ 
+}
+h1{
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    border-top:1px solid #888;
+    border-bottom:1px solid #888;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+  }
+
+
+h3{
+    font-size:1rem;
+    text-transform: uppercase;
+    color: rgb(243, 100, 84);
+    margin-bottom: 1rem;
+}
+section + section{
+    margin-top:2rem;
+    
+}
+li +li{
+    margin-top: 1rem;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+  
+}
+p{
+    line-height:1.5;
+
+}
+ul{
+    list-style: none;
+}
+.profile{
+    text-align:center;
+}
+
+.profile img{
+              border-radius: 10px;
+              width: 11rem;
+              height: 10rem;
+              background: linear-gradient(225deg, #d49d83, #fdba9b);
+              box-shadow:   -19px 19px 37px #d9a085,
+                           19px 0px 80px #ffbc9d;             
+}
+
+.profile p{
+    margin-bottom: 1rem;
+    color:#888;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.contact ul {
+    margin-top: -2rem;
+
+    
+}
+
+.contact li{
+    text-align: right;
+    text-transform:uppercase;
+    color:#888;
+    border-bottom:1px solid #888;
+    padding: 0.6rem;
+    font-size: 0.8rem;
+}
+.contact :hover{
+    color:#d9a085;
+}
+.skills > ul {
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    grid-gap: 1rem;
+}
+
+.event{
+    display:grid;
+    grid-template-columns: 5ch 1fr;   
+}
+
+.content{
+    border-left:1px solid #888;
+    padding: 1rem;
+    margin-left:1rem;
+}
+
+.content > h3 + p {
+    margin-bottom:1rem;
+    color:#333;
+    
+}
+.resume{
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    grid-gap:2rem;
+    background-color: rgb(245, 240, 240);
+    padding:2rem;
+   
+    
+
+    -webkit-box-shadow: 4px 4px 3px -1px rgba(44, 50, 50, 0.75);
+    -moz-box-shadow:    4px 4px 3px -1px rgba(44, 50, 50, 0.75);
+    box-shadow:         4px 4px 3px -1px rgba(44, 50, 50, 0.75);
+
+
+}
+
+
+/* logo design */
+.contact .instalogo{
+    border-radius: 99999px;
+    width: 3rem;
+    height: 2rem;
+   position: absolute;
+  
+   margin-top: .2rem;
+   border-radius: 128px;
+
+}
+.contact .twitterlogo{
+    border-radius: 99999px;
+    width: 2.2rem;
+    height: 1.99rem;
+    position: absolute;
+    margin-left: 0.4rem;
+    margin-top: .2rem;
+
+
+}
+
+.contact .linkedinlogo{
+    border-radius: 99999px;
+    width: 2rem;
+    height: 1.9rem;
+    position: absolute;
+    margin-left: 0.5rem;
+    margin-top: .2rem;
+}
+.contact .phonelogo{
+    border-radius: 99999px;
+    width: 2rem;
+    height: 1.9rem;
+    position: absolute;
+    margin-left: 0.5rem;
+    margin-top: .2rem;
+    
+}
+.contact .homelogo{
+    border-radius: 99999px;
+    width: 2rem;
+    height: 1.9rem;
+    position: absolute;
+    margin-left: 0.5rem;
+    margin-top: .2rem;
+ 
+
+}
+

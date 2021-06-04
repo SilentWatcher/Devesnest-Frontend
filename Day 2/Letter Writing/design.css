@@ -1,0 +1,47 @@
+*{
+        font-family: cursive;
+        box-sizing: border-box;
+    }
+.letter{
+        text-align: justify;
+        color: white;
+
+        background-color: rgb(16, 0, 14);
+        max-width: 100%;
+        margin-top: 0rem;
+        margin-bottom: 5px;
+        padding: 4% 4%;
+        
+    }
+
+body{
+        margin-right: 100px;
+        margin-left: 100px; 
+    }
+
+h2{     font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+         text-shadow: 0 1px 0 #ccc,
+        0 2px 0 #c9c9c9,
+        0 6px 1px rgba(0,0,0,.1),
+        0 0 5px rgba(0,0,0,.1),
+        0 1px 3px rgba(0,0,0,.3),
+        0 3px 5px rgba(0,0,0,.2),
+        0 5px 10px rgba(0,0,0,.25),
+        0 10px 10px rgba(0,0,0,.2),
+        0 20px 20px rgba(0,0,0,.15);
+  }
+
+div :hover{
+    color:rgb(250, 250, 85);
+}
+.sender{
+    text-align:right;
+   
+}
+.end{
+    text-align: right;
+}
+ul :hover{
+    color: turquoise;
+}
