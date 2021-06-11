@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body
+      {
+        width: 100vw;
+        height: 100vh;
+        
+      
+        background: #a2e6f0;
+        background: -moz-linear-gradient(
+          -45deg,
+          #a2e6f0 0%,
+          #107c8c 50%,
+          #016675 51%,
+          #4fb0bf 100%
+        );
+        background: -webkit-linear-gradient(
+          -45deg,
+          #a2e6f0 0%,
+          #107c8c 50%,
+          #016675 51%,
+          #4fb0bf 100%
+        );
+        background: linear-gradient(
+          135deg,
+          #a2e6f0 0%,
+          #107c8c 50%,
+          #016675 51%,
+          #4fb0bf 100%
+        );
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a2e6f0', endColorstr='#4fb0bf',GradientType=1 );
+      }
+      
+  }
+.heading{
+     margin-left: 450px;
+  }
+section
+.calculator-form {
+
+
+
+
+
+
+}
+.Calculator{
+
+ 
+}
+result-value{
+
+  
+  }
+
+

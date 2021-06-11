@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="heading">
+      <h1>SIMPLE CALCULATOR</h1>
+    </div>
+    <div class="Calculator">
+      <section
+        action="#"
+        method="get"
+        onsubmit="return"
+        class="calculator-form"
+      >
+        <label for="first-number">First-Number:</label>
+        <input class="num1" type="number" id="first-number" />
+        <label for="second-number">Second-Number:</label>
+        <input class="num2" type="number" id="second-number" />
+
+        <!-- buttons of calculator -->
+        <button class="submit-add" type="submit" value="Addition">
+          Addition
+        </button>
+        <button class="submit-min" type="submit" value="substraction">
+          substraction
+        </button>
+        <button class="submit-mul" type="submit" value="Multiplication">
+          Multiplication
+        </button>
+        <button class="submit-div" type="submit" value="Division">
+          Division
+        </button>
+        <div class="result">
+          <label>Result</label>
+          <div class="result-value"></div>
+        </div>
+      </section>
+    </div>
+  </body>
+  <script src="calci.js"></script>
+</html>
