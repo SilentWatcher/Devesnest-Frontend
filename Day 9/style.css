@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #dfaeaeb2;
+    width: 100vw;
+    height: 100vh;
+
+
+}
+section{
+    position:fixed;
+    top:15%;
+    left:19%;
+    font-size: 30px;
+    display: grid;
+
+    grid-gap: 100px;
+   
+
+
+}
+
+.container{
+ position: absolute;
+ top:1%;
+ left:50%;
+ position:fixed;
+ width: 400px;
+ height:400px ;
+ background-color: hotpink;
+ transform:translate(-50% -50%);
+ background:#ffffff;
+
+ display:flex;
+ flex-wrap: wrap;
+}
+
+.box{
+    border: 2.3px solid rgb(251, 183, 94);
+    background-color: rgb(102, 34, 14);
+    width:80px;
+    height:80px;
+
+}
+
+.box:hover{
+    cursor: pointer;
+    background-color: rgb(251, 183, 94) ;  
+}
+
+.booked{
+    background-color:  rgba(121, 190, 10, 0.986);
+}
+
