@@ -1,0 +1,105 @@
+/**/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Berkshire Swash", cursive;
+  font-weight: 300px;
+  background-image: linear-gradient(100deg, #9e9dfbf8, #032072);
+  color: #000;
+  min-height: 100vh;
+
+}
+header {
+  font-size: 1.5rem;
+}
+header,
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input,
+form button {
+  padding: 0px;
+  font-size: 2rem;
+  border: none;
+  background: white;
+}
+
+form button {
+  color: #2dbd34;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  
+}
+
+form button:hover {
+  background: #01fa16;
+  color: #000;
+
+ 
+}
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo-list {
+  min-width: 30%;
+  list-style: none;
+}
+
+.todo {
+  margin: 0.5rem;
+  background: white;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.5s ease;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 500;
+}
+.todo li {
+  flex: 1;
+}
+.trash-btn,
+.complete-btn {
+  background: #f67c19;
+  color: #ffffff;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+
+  font-size: 1rem;
+}
+.complete-btn {
+  background: #1eaf2a;
+}
+.todo-item {
+  padding: 0rem 0.5rem;
+}
+
+.fa-trash,
+.fa-check {
+  pointer-events: none;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+.fall {
+  transform: translate(0rem) rotateX(360deg);
+  opacity: 0;
+}
+
